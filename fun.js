@@ -51,11 +51,11 @@ document.addEventListener('DOMContentLoaded',()=>{
         .on("mouseover",(event,d)=>{
 
            
-          tooltip.transition().duration(300)//transition between states 
+          tooltip.transition().duration(200)//transition between states 
           .style("opacity",1).style("top",event.clientY+"px").style("left",event.clientX+10+"px")
           .style("width",90+"px")
           .style("height",52+"px")
-          .text(d[0]+" GPD: $ "+d[1])
+          .text(d[0]+" GPD: $ "+d[1]+"B")
           .attr("data-date", d[0])
         
        
