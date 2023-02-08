@@ -1,3 +1,13 @@
 body{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+rect:hover{
+fill: aqua;
+}
+#tooltip{
+    background-color: #ef8354;
+    
+    position: absolute;
+    
 }
