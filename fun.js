@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded',()=>{
           .style("opacity",1).style("top",event.clientY+"px").style("left",event.clientX+10+"px")
           .style("width",90+"px")
           .style("height",52+"px")
-          .text(d[0]+" GPD: $ "+d[1]+" B")
+          .text(d[0]+" GPD: $ "+d[1])
           .attr("data-date", d[0])
         
        
